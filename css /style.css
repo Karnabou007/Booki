@@ -15,7 +15,15 @@ a {
 
 nav {
   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
 }
 nav a {
-  padding
+  padding : 20px;
 }  
+
+#logo {
+  margin-right: auto;
+}
