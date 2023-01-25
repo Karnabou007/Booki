@@ -20,6 +20,7 @@ nav {
   justify-content: flex-end;
   
 }
+
 nav a {
   padding : 20px;
 }  
@@ -27,6 +28,11 @@ nav a {
 nav a:hover {
   border-top: 3px solid #0065fc;
   color: #0065fc;
+}
+
+.sub-nav a {
+  text-align: center;
+
 }
 
 #logo {
