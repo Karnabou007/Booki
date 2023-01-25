@@ -24,6 +24,10 @@ nav a {
   padding : 20px;
 }  
 
+nav a:hover {
+  border-top: 3px solid #0065fc;
+}
+
 #logo {
   margin-right: auto;
 }
