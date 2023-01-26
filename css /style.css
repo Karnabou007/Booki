@@ -42,3 +42,17 @@ nav a:hover {
 .wrapper {
   padding: ;
 }
+
+.search-form {
+  display: flex;
+}
+
+i {
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius: 15px 0 0;
+  -webkit-border-radius: 15px 0 0;
+  -moz-border-radius: 15px 0 0;
+  -ms-border-radius: 15px 0 0;
+  -o-border-radius: 15px 0 0;
+}
