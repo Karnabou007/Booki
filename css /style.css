@@ -38,7 +38,7 @@ nav {
 }
 
 nav a {
-  padding: 28px 20px ;
+  padding: 38px 20px ;
 }  
 
 nav a:hover {
@@ -72,8 +72,6 @@ p {
   line-height: 19px;
 }
 
-
-
 .search-form {
   display: flex;
 }
@@ -95,4 +93,24 @@ p {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+}
+
+.search-form button {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 16px;
+gap: 10px;
+width: 132px;
+height: 49px;
+left: 341px;
+top: 200px;
+background: #0065FC;
+border: 1px solid #0065FC;
+border-radius: 0px 15px 15px 0px;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
 }
