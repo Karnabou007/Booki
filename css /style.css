@@ -199,6 +199,40 @@ p {
 }
 
 /************************************
-*           Hébergements            *
+*           Hébergements list            *
 ************************************/
+.hebergement-list {
+	display: flex;
+	justify-content:space-between;
+ 	margin: 20px auto 0 auto;
+	gap : 40px;
+}
 
+.hebergement-list h3{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	margin: 30px 20px;
+}
+
+.hebergement-list .city {
+	flex-basis: 66%;
+	background: #F2F2F2;
+	border-radius: 20px;
+	Width: 880px;
+	Height: 626px;
+	Radius: 20px;
+	justify-content: space-between;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.hebergement-list .puplar {
+	flex-basis: 33%;
+	background: #F2F2F2;
+	height: 625px;
+    width: 420px;
+    border-radius: 20px;
+	justify-content: space-between;
+}
