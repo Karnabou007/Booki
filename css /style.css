@@ -7,13 +7,15 @@
 body {
   width: 1440px;
   height: 1884px;
-  padding: 0px 50px;
+  padding: 0px 20px;
   font-size: 18px;
+	
 }
 
 * {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+	margin: 2px;
 }
 
 /************************************
@@ -50,7 +52,7 @@ nav a:hover {
   color: #0065fc;
   width: 162px;
   height: 2px;
-  font-weight: 500;
+ 
 }
 
 .sub-nav a {
@@ -76,7 +78,6 @@ h1 {
   font-size: 22px;
   line-height: 26px;
 }
-
 p {
 	font-weight: 400;
   font-size: 16px;
@@ -94,15 +95,17 @@ p {
   background:#F2F2F2;
   border: 1px solid #F2F2F2;
   border-radius: 15px 0px 0px 15px;
+
+	
 }
 
 .search-form input {
-  
   border: 1px #F2F2F2;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+	
 }
 
 .search-form input::placeholder {
@@ -133,12 +136,14 @@ p {
 ************************************/
 
 .filter-list {
-	  display: flex;
-    padding: 20px 0px;
-	}
+	display: flex;
+  padding: 20px 0px;
+	
+  
+}
 
 .filter {
-	display: flex;
+display: flex;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -201,26 +206,29 @@ p {
 /************************************
 *           Hébergements list            *
 ************************************/
+
 .hebergement-list {
+
 	display: flex;
-	gap : 40px;
+  justify-content: space-between;
+  margin: 20px auto 0 auto;
+	
 }
 
-.hebergement-list h3{
+.hebergement-list .city h3{
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 26px;
-	margin: 30px 20px;
+	margin: 30px 0px 20px 20px;
+		
 }
 
 .hebergement-list .city {
-	flex-basis: 66%;
+
 	background: #F2F2F2;
 	border-radius: 20px;
 	Width: 880px;
 	Height: 626px;
-	Radius: 20px;
-	justify-content: space-between;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 26px;
@@ -234,31 +242,79 @@ p {
 }
 
 .city-hebergement-list {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	justify-content: space-around;
-	margin-bottom: 20px;
+	
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.city-hebergement-list div {
-	
-	background: #FFFFFF;
-	border-radius: 20px;
-	flex-basis: 33%;
+.city-hebergement{
+  width: 246px;
+  height: 199px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: -2px 8px 8px 2px rgb(227, 227, 227);
+}
+
+.img-hebergement{
+  width: 246px;
+  height: 124px;
+  border: 5px solid #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+}
+
+.description-hebergement{
+  margin-left: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.description-hebergement p, .description-popular p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+
+.etoiles{
+  display: flex;
+  gap: 0.3px;
+}
+
+.fa-star{
+  color:#0065FC;
+  font-size: 12px;
+}
+
+.etoile-decoloree{
+  color: #d9d9d9;
+}
+
+span{
+  font-weight: bold;
+}
+
+
+#Afficher-plus{
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  margin: 35px 0 0 20px;
+  line-height: 21px;
 }
 
 .hebergement-list .puplar {
-	flex-basis: 33%;
-	background: #F2F2F2;
-	height: 625px;
-  width: 420px;
-  border-radius: 20px;
 	
-}
-.city-hebergement-list .puplar div {
-	background: #FFFFFF;
-	border-radius: 20px;
-	flex-basis: 33%;
+background: #F2F2F2;
+height: 625px;
+width: 420px;
+border-radius: 20px;
+	
 }
 
