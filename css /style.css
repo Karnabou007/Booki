@@ -311,10 +311,60 @@ span{
 
 .hebergement-list .puplar {
 	
-background: #F2F2F2;
-height: 625px;
-width: 420px;
-border-radius: 20px;
+  background: #F2F2F2;
+  height: 625px;
+  width: 420px;
+  border-radius: 20px;
 	
 }
 
+
+/************************************
+*           Popular list            *
+************************************/
+
+.hebergement-list .puplar {
+	display: flex;
+	background: #F2F2F2;
+	height: 625px;
+  width: 420px;
+  border-radius: 20px;
+	
+}
+
+.icone-popular{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-chart-line{
+  margin-right: 21px;
+  color: #0065FC;
+  font-size: 18px;
+}
+
+.img-popular{
+  height: 144px;
+  width: 40%;
+  border: 5px solid #FFFFFF;
+  border-radius: 20px 0 0 20px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.carte-popular{
+  height: 144px;
+  width: 90%;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  margin: 0 auto 32.5px auto;
+  box-shadow: -2px 8px 8px 2px rgb(227, 227, 227);
+}
+
+.description-popular{
+  display: inline-block;
+  width: 169px;
+  vertical-align: top;
+  margin: 15px 0 0 10px;
+}
