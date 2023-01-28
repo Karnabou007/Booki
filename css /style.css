@@ -138,8 +138,7 @@ p {
 .filter-list {
 	display: flex;
   padding: 20px 0px;
-	
-  
+	align-items:center;  
 }
 
 .filter {
@@ -154,6 +153,7 @@ display: flex;
 	box-sizing: border-box;
 	padding: 0 20px;
 	margin: 5px 20px;
+  height: 50px;
 	border: 2px solid #d9d9d9;
   border-radius: 25px;
   background-color: #FFFFFF;
@@ -400,3 +400,42 @@ span{
 .activites h4{
   margin: 15px 0 0 19px;
 }
+
+
+/************************************
+*           A promos           *
+************************************/
+
+footer{
+  background-color: #f2f2f2;
+  margin-top: 65px;
+  height: 225px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-column{
+  display: flex;
+  gap: 200px;
+  margin-left: 40px;
+}
+
+.footer-list{
+  margin-top: 45px;
+}
+
+.liste-footer h3{
+  margin-bottom: 20px;
+}
+
+footer li{
+  list-style: none;
+  margin-top: 12px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
