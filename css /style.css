@@ -403,7 +403,7 @@ span{
 
 
 /************************************
-*           A promos           *
+*           A propos           *
 ************************************/
 
 footer{
@@ -425,7 +425,7 @@ footer{
   margin-top: 45px;
 }
 
-.liste-footer h3{
+.footer-list h3{
   margin-bottom: 20px;
 }
 
@@ -439,3 +439,98 @@ footer a{
   color: black;
 }
 
+/************************************
+*           Tablette           *
+************************************/
+
+@media screen and (max-width: 992px) {
+
+  .hebergements-et-populaires{
+      display: block;
+  }
+
+  .hebergements{
+      width: 100%;
+  }
+
+  .populaires{
+      width: 100%;
+      height: 278px;
+  }
+
+  .container-populaires{
+      display: flex;
+  }
+
+  .carte-populaires{
+      display: flex;
+      width: 30%;
+      height: 144px;
+      align-items: center;
+  }
+
+  .img-populaires{
+      width: 40%;
+  }
+
+  .description-populaires{
+      width: 111px;
+      height: 57px;
+  }
+
+  .description-populaires p{
+      font-size: 12px;
+  }
+
+  .populaires{
+      margin-top: 53px;
+  }
+
+  .populaires h4{
+      width: 111px;
+  }
+
+  .titre-prix-carte-populaires{
+      margin-bottom: 0;
+  }
+
+  .etoiles-populaires{
+      vertical-align: bottom;
+  }
+
+  .carte-activites{
+      width: 182px;
+      height: 267px;
+  }
+
+  .img-activites{
+      height: 211px;
+  }
+
+  .activites h4{
+      vertical-align: super;
+  }
+
+  .filtres{
+      text-align: center;
+  }
+
+  footer{
+      width: 879.65px;
+  }
+
+  .colonnes-footer{
+      gap: 40px;
+  }
+
+}
+
+
+
+/************************************
+*           Mobile           *
+************************************/
+
+@media screen and (max-width: 768px) {
+
+}
